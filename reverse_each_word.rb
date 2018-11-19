@@ -5,6 +5,6 @@ def reverse_each_word(str)
   arr2=arr1.map do |item|
     item.reverse 
   end 
-  return arr2.join
+  return arr2.join(" ")
   
 end
