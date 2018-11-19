@@ -7,4 +7,5 @@ def reverse_each_word(str)
   end 
   return arr2.join(" ")
   
+  
 end
