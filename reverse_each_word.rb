@@ -2,8 +2,9 @@ def reverse_each_word(str)
   
   
   arr1=str.split(" ")
-  arr1.each do |item|
-    
+  arr2=arr1.map do |item|
+    item.reverse 
   end 
+  return arr2.join
   
 end
